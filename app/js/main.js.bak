@@ -1,0 +1,22 @@
+$(document).ready(function(){
+		
+ 
+
+    $(".search-btn").click(function() {
+        $(".search-inpt").toggleClass('showsearch animated');
+		$(".search-inpt").focus();
+    });
+	
+	 new WOW().init();   
+		
+
+		
+		
+
+		
+		
+		
+		
+		
+		
+	});

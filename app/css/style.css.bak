@@ -1,0 +1,454 @@
+
+/*/////////////////////////////////////////////
+//              FONTS INSERT                 //
+////////////////////////////////////////////*/
+
+@font-face
+{
+    font-family: CoreRhino25Thin;
+
+    src: url(/fonts/CoreRhino25Thin.otf);
+}
+@font-face
+{
+    font-family: CoreRhino25Thin-Italic;
+
+    src: url(fonts/CoreRhino25Thin-Italic.otf);
+}
+@font-face
+{
+    font-family: CoreRhino35Light;
+
+    src: url(/fonts/CoreRhino35Light.otf);
+}
+@font-face
+{
+    font-family: CoreRhino45Regular;
+
+    src: url(/fonts/CoreRhino45Regular.otf);
+}
+@font-face
+{
+    font-family: CoreRhino55Medium;
+
+    src: url(/fonts/CoreRhino55Medium.otf);
+}
+@font-face
+{
+    font-family: CoreRhino65Bold;
+
+    src: url(/fonts/CoreRhino65Bold.otf);
+}
+@font-face
+{
+    font-family: CoreRhino75Heavy;
+
+    src: url(/fonts/CoreRhino75Heavy.otf);
+}
+@font-face
+{
+    font-family: CoreRhino85Black;
+
+    src: url(/fonts/CoreRhino85Black.otf);
+}
+*
+{
+    outline: none;
+}
+::-webkit-scrollbar
+{
+    width: 7px;
+
+    -webkit-appearance: none;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+::focus
+{
+    outline: none;
+}
+/*/////////////////////////////////////////////
+//              TEMPLATE STYLE              //
+////////////////////////////////////////////*/
+
+body
+{
+    font-family: CoreRhino45Regular;
+
+    background: #fff;
+}
+
+/*-----------------*/
+/*HEADER-BLOCK     */
+/*-----------------*/
+#head-block
+{
+    color: #000;
+    background: #64c8a4 url('/images/pattern_top.png');
+}
+/* -----------infopanel---------- */
+#head-block div.infopanel
+{
+    height: 37px;
+
+    background-color: #e3373f;
+}
+
+#head-block div.infopanel p
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    padding: 12px 0 8px 0;
+
+    color: white;
+}
+#head-block div.infopanel::after
+{
+    width: 40px;
+    height: 40px;
+
+    background: #000;
+}
+/* -----------infopanel end---------- */
+
+
+
+/* -----------logo---------- */
+#head-block .logo
+{
+    height: 56px;
+    margin-top: 11px;
+}
+/* -----------logo end---------- */
+
+/* -----------top-menu---------- */
+#head-block .top-menu
+{
+    font-family: CoreRhino35Light;
+    font-size: 25px;
+    font-weight: 400;
+
+    margin-top: 45px;
+    margin-bottom: 11px;
+
+    color: white;
+}
+
+/* #head-block ul.top-menu-sub
+{
+    position: relative;
+    z-index: 10;
+} */
+
+/* -----------top-menu end---------- */
+
+#head-block div.telephone
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 13px;
+
+    color: white;
+}
+/* -----------cart ---------- */
+#head-block div.cart
+{
+    font-family: CoreRhino65Bold;
+    font-size: 14px;
+    font-weight: 400;
+
+    float: right;
+
+    width: 35px;
+    height: 27px;
+    margin-top: 16px;
+    padding: 10px 13px 5px 1px;
+
+    color: #00cba5;
+    background: url('/images/cart.png');
+}
+
+/* -----------cart end---------- */
+/* -----------tagline---------- */
+#head-block div#tagline
+{
+    /* height: 45px; */
+    margin-top: 11px;
+}
+
+#head-block div#tagline div.overlay
+{
+    background: url('/images/bg-tag.png');
+}
+
+
+#tagline ul li p
+{
+    font-family: CoreRhino35Light;
+    font-size: .8em;
+    font-weight: 400;
+
+    min-width: 60px;
+    max-width: 100px;
+    margin: 13px 0 0 0;
+    padding: 7px 0 6px 0;
+
+    text-align: center;
+
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+/* -----------tagline end---------- */
+
+
+/* -----------search ---------- */
+.search
+{
+    margin: 15px 0 0 0;
+
+    -webkit-appearance: none;
+}
+.search-btn
+{
+    display: inline-block;
+
+    width: 25px;
+    height: 22px;
+
+    cursor: pointer;
+
+    border: none;
+    border-color: #fff;
+    background: url('/images/icon-search.png');
+}
+.search-btn:focus
+{
+    outline: none;
+}
+.search-btn:active
+{
+    outline: none;
+    background: url('/images/icon-search.png');
+}
+.search-inpt
+{
+    position: relative;
+    left: 34px;
+
+    visibility: hidden;
+
+    height: 27px;
+    padding: 10px 0;
+
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #929292;
+}
+.search-inpt:focus
+{
+    outline: none;
+}
+.search-inpt[placeholder]
+{
+    font-size: 12px;
+}
+.showsearch
+{
+    display: inline-block;
+    visibility: visible;
+}
+/* -----------search end---------- */
+
+/*-----------------*/
+/*HEADER-BLOCK  END*/
+/*-----------------*/
+/*-----------------*/
+/*content-BLOCK    */
+/*-----------------*/
+#content
+{
+    min-height: 600px;
+
+    background: #fff;
+}
+
+
+
+/*-----------------*/
+/*content-BLOCK end */
+/*-----------------*/
+/*-----------------*/
+/*FOOTER-BLOCK     */
+/*-----------------*/
+footer#footer-block
+{
+    height: 245px;
+    padding-top: 20px;
+
+    color: #fff;
+    background: #64c8a4 url('/images/footer-pat.png');
+}
+footer#footer-block h3
+{
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+
+    margin-top: 30px;
+
+    color: white;
+}
+footer#footer-block div.copyright
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 76px;
+
+    color: white;
+}
+/* ----------footer subscribe------------- */
+footer#footer-block input.b-subs-inp
+{
+    width: 245px;
+}
+footer#footer-block button.btn-ok-subs
+{
+    width: 64px;
+    height: 35px;
+
+    border-radius: 4px;
+    background-color: #a662a2;
+}
+/* ----------footer subscribe------------- */
+
+
+/* ------footer menu --------- */
+footer#footer-block div.footer-menu
+{
+    margin-top: 30px;
+}
+
+footer#footer-block div.footer-menu ul li
+{
+    font-family: CoreRhino35Light;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 16px;
+
+    color: white;
+}
+/* ------footer menu end--------- */
+
+
+/* ------SOCIAL BOTTOM--------- */
+#footer-block ul.social-icons
+{
+    margin-top: 30px;
+}
+#footer-block ul.social-icons li
+{
+    display: inline-block;
+
+    width: 40px;
+    height: 40px;
+    margin: 0 2.5px;
+
+    background: url('/images/soc-sprite.png');
+}
+#footer-block ul.social-icons li:hover
+{
+    cursor: pointer;
+    -webkit-animation-name: bounce;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+}
+
+#footer-block ul.social-icons li.fb
+{
+    background-position: 0 0;
+}
+#footer-block ul.social-icons li.in
+{
+    background-position: 139px 0;
+}
+#footer-block ul.social-icons li.vk
+{
+    background-position: 279px 0;
+}
+#footer-block ul.social-icons li.yt
+{
+    background-position: 418px 0;
+}
+/* ------SOCIAL BOTTOM--------- */
+/*-----------------*/ 
+/*FOOTER-BLOCK  END*/ 
+/*-----------------*/ 
+/*--------------------------------------------------------------------------------------*/
+/*/////////////////////////////////////////////
+//              MAINPAGE STYLE              //
+////////////////////////////////////////////*/
+/*------- SLIDER--------- */
+#slider
+{
+    margin: 0 auto;
+
+    background: -webkit-linear-gradient(top, #565656 0%,#afafaf 100%);
+    background:         linear-gradient(to bottom, #565656 0%,#afafaf 100%);
+}
+/*------- /SLIDER END--------- */
+#info
+{
+    margin-top: 60px;
+}
+#info h1
+{
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+
+    margin-bottom: 66px;
+
+    color: #666;
+}
+#info h3
+{
+    font-family: CoreRhino55Medium;
+    font-size: 26px;
+    font-weight: 400;
+
+    margin-bottom: 51px;
+
+    color: #666;
+}
+#info ul.list-unstyled li
+{
+    margin-bottom: 73px;
+}
+/*/////////////////////////////////////////////
+//              CATALOG LIST STYLE           //
+////////////////////////////////////////////*/
+
+
+
+
+
+/*/////////////////////////////////////////////
+//              CATALOG DETAIL STYLE         //
+////////////////////////////////////////////*/
