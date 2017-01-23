@@ -1,0 +1,1962 @@
+
+/*/////////////////////////////////////////////
+//              FONTS INSERT                 //
+////////////////////////////////////////////*/
+
+@font-face
+{
+    font-family: CoreRhino25Thin;
+
+    src: url(../fonts/CoreRhino25Thin.otf);
+}
+@font-face
+{
+    font-family: CoreRhino25Thin-Italic;
+
+    src: url(../fonts/CoreRhino25Thin-Italic.otf);
+}
+@font-face
+{
+    font-family: CoreRhino35Light;
+
+    src: url(../fonts/CoreRhino35Light.otf);
+}
+@font-face
+{
+    font-family: CoreRhino45Regular;
+
+    src: url(../fonts/CoreRhino45Regular.otf);
+}
+@font-face
+{
+    font-family: CoreRhino55Medium;
+
+    src: url(../fonts/CoreRhino55Medium.otf);
+}
+@font-face
+{
+    font-family: CoreRhino65Bold;
+
+    src: url(../fonts/CoreRhino65Bold.otf);
+}
+@font-face
+{
+    font-family: CoreRhino75Heavy;
+
+    src: url(../fonts/CoreRhino75Heavy.otf);
+}
+@font-face
+{
+    font-family: CoreRhino85Black;
+
+    src: url(../fonts/CoreRhino85Black.otf);
+}
+*
+{
+    outline: none;
+}
+::-webkit-scrollbar
+{
+    width: 6px;
+
+    -webkit-appearance: none;
+}
+::-webkit-scrollbar-thumb
+{
+    border-radius: 7px;
+    background-color: #6b6b6b;
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+::focus
+{
+    outline: none;
+}
+/*/////////////////////////////////////////////
+//              TEMPLATE STYLE              //
+////////////////////////////////////////////*/
+
+body
+{
+    font-family: CoreRhino45Regular;
+
+    background: #fff;
+}
+/* ===============================
+           DEFAULT
+================================ */
+h1
+{
+    font-family: CoreRhino45Regular;
+    font-size: 35px;
+    font-weight: 400;
+
+    color: #666;
+}
+a 
+{
+	color:#333;
+	
+}
+a:hover
+{
+	
+	cursor:pointer;
+	
+	
+	 
+}
+ 
+.mt64
+{
+    margin-top: 64px;
+}
+
+
+.mt10
+{
+	margin-top: 10px;
+}
+.mt20
+{
+	margin-top: 20px;
+}
+.mt30
+{
+	margin-top: 30px;
+}
+.mt40
+{
+	margin-top: 40px;
+}
+.bx_page
+{
+	margin: 40px 0;
+    font-size: 18px;
+    color: #5d5d5d;
+    line-height: 34px;
+	min-height:430px;
+}
+
+.bx_page a
+{
+	color:#64c8a4;
+	cursor:pointer;
+}
+.bx-system-auth-form 
+{
+font-size: 20px;
+    line-height: 35px;	
+}
+.bx-system-auth-form a
+{
+	color:#64c8a4;
+	cursor:pointer;
+}
+
+.bx-system-auth-form input[name=logout_butt]
+{
+
+    border: none;
+    border-radius: 19px;
+    padding: 10px 40px;
+    color: #fff;
+    box-shadow: 1px 1px 1px #40715f;
+}
+
+
+input[name=USER_LOGIN],input[name=USER_PASSWORD]
+{
+
+    border-radius: 8px;
+    border: 1px solid #c7c7c7;
+    padding: 6px 20px;
+	margin:10px 0px;
+	background-color: 
+}
+input[name=USER_REMEMBER]
+{
+	width: 22px;
+	height:22px;
+	outline:none;
+}
+input[name=Login]
+{
+	margin: 0 auto;
+    background: #64c8a4;
+    border-radius: 13px;
+    text-align: center;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+	
+}
+input[name=Login]:hover
+{
+	
+    background: #319470;
+   
+	
+}
+
+.bx_catalog_list_home
+{
+	margin-top: -16px;
+}
+
+
+/* ===============================
+           DEFAULT END
+================================ */
+
+/*-----------------*/
+/*HEADER-BLOCK     */
+/*-----------------*/
+#head-block
+{
+    color: #000;
+    background: #64c8a4 url('../images/pattern_top.png');
+}  
+/* -----------infopanel---------- */
+#head-block div.infopanel
+{
+    height: 37px;
+
+    background-color: #e3373f;
+}
+#head-block div.infopanel p
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    padding: 12px 0 0px 0;
+
+    color: white;
+	
+}
+#head-block div.infopanel::after
+{
+    width: 40px;
+    height: 40px;
+
+    background: #000;
+}
+div.infopanel i 
+{
+ 
+	    cursor: pointer;
+    color: #fff;
+    font-size: 23px;
+    margin-top: -7px;
+}
+div.infopanel i:hover
+{
+
+
+	color:#000;
+}
+
+
+
+/* -----------infopanel end---------- */
+/* -----------logo---------- */
+#head-block .logo
+{
+    height: 56px;
+    margin-top: 24px;
+}
+/* -----------logo end---------- */
+
+/* -----------top-menu---------- */
+#head-block .top-menu
+{
+    font-family: CoreRhino35Light;
+    font-size: 25px;
+    font-weight: 400;
+
+    margin-top: 35px;
+    margin-bottom: 11px;
+
+    color: white;
+}
+
+#head-block .top-menu li a
+{
+	    color: #fff;
+    background: url(../images/menu-line.png) no-repeat;
+    background-position: 0 150%;
+    display: block;
+    height: 46px;
+}
+#head-block .top-menu li a:hover
+{
+	text-decoration: blink;
+	transition: all .1s ease-in;
+}
+#head-block .top-menu li a.sf-with-ul:hover
+{
+    color: #fff;
+    padding-bottom: 0px;
+    text-decoration: blink;
+    background-position: 0 100%;
+   transition: all .2s ease-in;
+    
+}
+
+
+
+#head-block div.overlayer
+{
+	display:none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #000000;
+    left: 0;
+    z-index: 999; 
+    opacity: .6;
+    top: 132px;	
+}
+#head-block div.overlayer.active
+{
+	display:block;
+}
+#sub-menu-nab  
+{
+	display:none;
+}
+#sub-menu-nab.active
+{
+	display:block;
+}
+
+
+#head-block .top-menu li ul.list-unstyled li a
+{
+	color:#000;
+}
+#head-block .top-menu li ul.list-unstyled li
+{
+	color:#000;
+	display:inline-block;
+	width: 18%;
+	color: #666;
+	font-family: CoreRhino35Light;
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	    vertical-align: top;
+		margin-top: 42px;
+}
+
+#head-block .top-menu li ul.list-unstyled li i 
+{
+background: url('../images/top-menu-i-sprite.png');
+    width: 113px;
+    height: 104px;
+    display: block;
+	    margin: 0 auto;
+		margin-bottom: 33px;
+}
+
+#head-block .top-menu li ul.list-unstyled li i.nabory
+{
+	background-position: 0 0;
+}
+#head-block .top-menu li ul.list-unstyled li i.books
+{
+	background-position: -151px 0;
+}
+#head-block .top-menu li ul.list-unstyled li i.toys
+{
+	background-position: -302px 0;
+}
+#head-block .top-menu li ul.list-unstyled li i.mus-instruments
+{
+	background-position: -459px 0;
+}
+#head-block .top-menu li ul.list-unstyled li i.others
+{
+	background-position: -600px 0;
+}
+
+
+ 
+
+
+
+/* -----------top-menu end---------- */
+#head-block div.telephone
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 4px;
+
+    color: white;
+}
+/* -----------cart ---------- */
+#head-block div.cart
+{
+    font-family: CoreRhino65Bold;
+    font-size: 14px;
+    font-weight: 400;
+
+    float: right;
+
+    width: 35px;
+    height: 27px;
+    margin-top: 16px;
+    padding: 10px 8px 5px 1px;
+
+    color: #00cba5;
+    background: url('../images/cart.png');
+}
+
+/* -----------cart end---------- */
+/* -----------tagline---------- */
+#head-block div#tagline
+{
+    margin-top: 11px;
+}
+#head-block div#tagline p
+{
+margin: 0;
+    margin-top: 5px;
+
+}
+
+
+
+#head-block div#tagline div.overlay
+{
+    background: url('../images/bg-tag.png'); 
+}
+#tagline ul li p
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 60px;
+    max-width: 100px;
+    padding: 2px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px; 
+}
+
+#tagline ul li:first-child
+{
+	padding: 0px 5px 5px 0px;
+ }
+
+#tagline ul li p:hover
+{
+	background:#fff;
+	color:#000;
+	 transition: all .3s ease-in;
+}
+#tagline ul li a
+{
+	text-decoration:none;
+}
+/* -----------tagline end---------- */
+
+
+/* -----------search ---------- */
+.search
+{
+    margin: 0px 0 0 0;
+
+    -webkit-appearance: none;
+	left: 31px;
+}
+.search-btn
+{
+    display: inline-block;
+
+    width: 25px;
+    height: 22px;
+
+    cursor: pointer;
+
+    border: none;
+    border-color: #fff;
+    background: url('../images/icon-search.png');
+	    left: -24px;
+}
+.search-btn:focus
+{
+    outline: none;
+}
+.search-btn:active
+{
+    outline: none;
+    background: url('../images/icon-search.png');
+}
+.search-inpt
+{
+    position: relative;
+
+    visibility: hidden;
+
+    height: 27px;
+    padding: 10px 0;
+
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+	
+	/*     position: relative;
+    visibility: hidden;
+    height: 31px;
+    padding: 10px 0;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    background: #469679;
+    border-radius: 20px;
+	padding-left: 9px; */
+}
+.search-inpt:focus
+{
+    outline: none;
+}
+.search-inpt[placeholder]
+{
+    font-size: 12px;
+}
+.showsearch
+{
+    display: inline-block;
+    visibility: visible;
+}
+/* -----------search end---------- */
+
+/*-----------------*/
+/*HEADER-BLOCK  END*/
+/*-----------------*/
+/*-----------------*/
+/*content-BLOCK    */
+/*-----------------*/
+#content
+{
+    min-height: 600px;
+
+    background: #fff;
+}
+
+/*-----------------*/
+/*content-BLOCK end */
+/*-----------------*/
+/*-----------------*/
+/*FOOTER-BLOCK     */
+/*-----------------*/
+footer#footer-block
+{
+    
+    padding-top: 20px;
+
+    color: #fff;
+    background: #64c8a4 url('../images/footer-pat.png');
+	
+}
+footer#footer-block h3
+{
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+
+    margin-top: 30px;
+
+    color: white;
+	line-height: 30px;
+}
+footer#footer-block div.copyright
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin-top: 76px;
+
+    color: white;
+	margin-bottom: 18px;
+}
+
+footer#footer-block div.phone
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 75px;
+    color: white;
+    margin-bottom: 18px;
+    text-align: right; 
+}
+
+
+/* ----------footer subscribe------------- */
+footer#footer-block input.b-subs-inp
+{
+       width: 245px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: white;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+footer#footer-block .form-control, footer#footer-block .input-group-btn
+{
+	display:inline-block;
+}
+
+footer#footer-block .input-group
+{
+	margin-top: 15px;
+}
+footer#footer-block button.btn-ok-subs
+{
+   width: 64px;
+    height: 33px;
+    border-radius: 4px;
+    background-color: #a662a2;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+	display:inline-block;
+}
+
+footer#footer-block p.copyright
+{
+	margin-top: 43px;
+	color: white;
+font-family: CoreRhino35Light;
+font-size: 14px;
+font-weight: 400;
+}
+
+
+
+
+/* ----------footer subscribe------------- */
+/* ------footer menu --------- */
+footer#footer-block div.footer-menu
+{
+    margin-top: 30px;
+}
+footer#footer-block div.footer-menu ul li
+{
+    font-family: CoreRhino35Light;
+    font-size: 16px;
+    font-weight: 400;
+
+    margin-bottom: 8px;
+
+    color: white;
+}
+/* ------footer menu end--------- */
+/* ------SOCIAL BOTTOM--------- */
+#footer-block ul.social-icons
+{
+    margin-top: 30px;
+}
+#footer-block ul.social-icons li
+{
+    display: inline-block;
+
+    width: 40px;
+    height: 40px;
+    margin: 0 2.5px;
+
+    background: url('../images/soc-sprite.png');
+}
+#footer-block ul.social-icons li:hover
+{
+    cursor: pointer;
+    -webkit-animation-name: rotateIn;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+}
+
+#footer-block ul.social-icons li.fb
+{
+    background-position: 0 0;
+}
+#footer-block ul.social-icons li.in
+{
+    background-position: 139px 0;
+}
+#footer-block ul.social-icons li.vk
+{
+    background-position: 279px 0;
+}
+#footer-block ul.social-icons li.yt
+{
+    background-position: 418px 0;
+}
+/* ------SOCIAL BOTTOM--------- */
+#toTop {
+    width: 67px;
+    background: #64c8a4;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 38px;
+	border: 2px solid white;
+	 transition: all .3s ease-in-out;
+	 border-radius:50%;
+}
+
+#toTop:hover
+{
+	 background: #a8609e;
+	 border-radius:50%;
+	 transition: all .3s ease-in-out;
+
+	     box-shadow: 0px 0px 14px #c1c0c0;
+}
+/*-----------------*/ 
+/*FOOTER-BLOCK  END*/ 
+/*-----------------*/ 
+/*--------------------------------------------------------------------------------------*/
+/*/////////////////////////////////////////////
+//              MAINPAGE STYLE              //
+////////////////////////////////////////////*/
+/*------- SLIDER--------- */
+a[name="lk"],
+
+a[href="/personal/"]
+{
+	color:#fff;
+}
+
+
+
+#slider
+{
+    margin: 0 auto;
+	/* max-width:1300px; */
+	background:gray;
+   
+	
+}
+
+
+
+#slider button.arrow-prev
+{
+	
+    position: absolute;
+    top: 50%;
+    left: 0;
+	    background: none;
+    border: none;
+}
+
+#slider button.arrow-next
+{
+	
+    position: absolute;
+    top: 50%;
+    right: 0%;
+	    background: none;
+    border: none;
+}
+
+/*------- /SLIDER END--------- */
+/*-------- SLIDER BOTTOM ----------*/
+#slider-bottom-block
+{
+	background:#a8609e;
+	height:107px;
+	color:#fff;
+	margin-bottom: 30px;
+}
+
+
+#slider-bottom-block div.container
+{
+width: 1300px;
+
+}
+#slider-bottom-block ul
+{
+	margin-top:10px;
+}
+#slider-bottom-block ul li 
+{
+    color: #fefefe;
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    width: 21%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: .9%;
+}
+
+#slider-bottom-block ul li:first-child
+{
+    color: #fefefe;
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+#slider-bottom-block ul li span.img
+{
+	background:url("../images/slider-sprite.png") no-repeat;
+	width: 78px;
+	height: 76px;
+	display: inline-block;
+	float:left;
+	 
+}
+
+#slider-bottom-block ul li p
+{
+	padding-left: 100px;
+    vertical-align: middle;
+    display: block;
+    padding-top: 8px;
+	
+}
+
+
+
+/*-------- SLIDER BOTTOM ----------*/
+
+
+#info
+{
+    margin-top: 30px;
+}
+#info h1
+{
+	width: 759px;
+	margin:0 auto;
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+line-height: 36px;
+    margin-bottom: 30px;
+	text-align:center;
+
+    color: #666;
+}
+#info h3
+{
+    font-family: CoreRhino55Medium;
+    font-size: 26px;
+    font-weight: 400;
+
+    margin-bottom: 51px;
+
+    color: #666;
+}
+#info ul.list-unstyled li
+{
+    margin-bottom: 73px;
+}
+/* ----------------sostav naborov block -------------------- */
+#info ul.sostav-block li p
+{
+    width: 89px;
+    height: 89px;
+    margin: 0 auto;
+
+    background: url('../images/top-ability-sprite.png');
+}
+#info ul.sostav-block li p.name
+{
+    font-family: CoreRhino35Light;
+    font-size: 18px;
+    font-weight: 400;
+
+    width: auto;
+    height: auto;
+    margin-top: 31px;
+
+    text-align: center;
+
+    color: #666;
+    background: none;
+}
+#info ul.sostav-block li p.autor
+{
+    background-position: 0 0;
+}
+#info ul.sostav-block li p.brand
+{
+    background-position: 675px 0;
+}
+#info ul.sostav-block li p.idea
+{
+    background-position: 383px 0;
+}
+#info ul.sostav-block li p.podarki
+{
+    background-position: 89px 0;
+}
+/* ----------------/sostav naborov block end -------------------- */
+/* ----------------- razvivaites i izuchaite block -------------- */
+#together-bimba
+{
+    margin-bottom: 0px;
+}
+#together-bimba ul.list-unstyled
+{
+	margin: 0;
+	padding: 0;
+}
+
+#together-bimba ul.list-unstyled li
+{
+    font-family: CoreRhino35Light;
+    font-size: 18px;
+    font-weight: 400;
+display: inline-block;
+    margin-bottom: 40px;
+
+    color: #666;
+	vertical-align:middle;
+	
+	
+}
+
+#together-bimba ul.list-unstyled li i
+{
+    width: 80px;
+    height: 60px;
+    background: url('../images/razvitie-sprite.png');
+    display: inline-block;
+    vertical-align: middle;
+	float:left;
+}
+
+
+#together-bimba ul.list-unstyled li i.chtenie
+{
+	background-position: 0 0;	
+}
+#together-bimba ul.list-unstyled li i.engl
+{
+	background-position: -86px 0;
+}
+#together-bimba ul.list-unstyled li i.math
+{
+	background-position: -163px 0;
+}
+#together-bimba ul.list-unstyled li i.world
+{
+	background-position: -248px 0;
+}
+#together-bimba ul.list-unstyled li i.ability
+{
+	background-position: -327px 0;
+	    padding-top: 6px;
+    padding-left: 19px;
+}
+#together-bimba ul.list-unstyled li i.motoric
+{
+	background-position: -405px  0;
+}
+#together-bimba ul.list-unstyled li i.itell
+{
+	background-position: -494px  0;
+}
+#together-bimba ul.list-unstyled li span
+{
+padding-top: 19px;
+    padding-left: 19px;
+    position: absolute;
+	
+	
+}
+
+#together-bimba ul.list-unstyled li span.multiline
+{
+	padding-top: 6px;
+    padding-left: 19px;
+    position: absolute;
+}
+
+/* ----------------- razvivaites i izuchaite block ------------------ */
+/* --------------------------- widgets-block------------------------- */
+#wide-slider
+{
+    margin-bottom: 30px;
+}
+#slider-2-col
+{
+    margin-bottom: 30px;
+}
+
+
+#widget-3-col div.xoverlay-box
+{
+	border: 6px solid #64c8a4;
+	    background: rgba(43, 90, 73, 0.78);
+}
+
+.xoverlay-data
+{
+	text-align: left;
+}
+
+#slider-2-col div.xoverlay-data h1
+{
+	padding:0 15%;
+	color:#fff;
+	cursor:pointer;
+}
+
+div.xoverlay-data h1
+{
+    color: #fff;
+    cursor: pointer;
+    padding-left: 23px;
+    width: 274px;
+}
+div.xoverlay-data button
+{
+	position: absolute;
+    bottom: 10.4%;
+    left: 34%;
+}
+/* --------------------------- widgets-block end ----------------------- */
+/* ----------------------------- recomend2view ------------------------- */
+#recomend2view
+{
+    margin-top: 30px;
+}
+#recomend2view h3
+{
+    font-family: CoreRhino55Medium;
+    font-size: 26px;
+    font-weight: 400;
+
+    color: #666;
+}
+
+
+#recomend2view p.name
+{
+	position:relative;
+	margin-top: 30px;
+	bottom:0;
+	text-align: center;
+	color: #666;
+font-family: CoreRhino35Light;
+font-size: 18px;
+font-weight: 400;
+}
+
+#rec-slider button.arrow-prev
+{
+     position: absolute;
+    top: 50%;
+    left: -4%;
+	    background: none;
+    border: none;
+}
+#rec-slider button.arrow-next
+{
+     position: absolute;
+    top: 50%;
+    right: -4%;
+	    background: none;
+    border: none;
+}
+
+/* ----------------------------- recomend2view ----------------------------- */
+/* ---------------------------------subscribe-block------------------------- */
+#subscribe-block
+{
+    /*    margin-bottom: 75px; */
+}
+#subscribe-block h3
+{
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+
+    margin-top: 59px;
+    margin-bottom: 68px;
+    padding: 0 50px;
+
+    color: #666;
+}
+#subscribe-block div.two-info-bl,
+div.two-info-br
+{
+    width: 555px;
+    height: 164px;
+
+    border: 12px solid #64c8a4;
+}
+#subscribe-block div.two-info-bl
+{
+    background: url('../images/subscribe-bg.png') no-repeat;
+    background-position-x: 350px;
+    background-position-y: 10px;
+}
+#subscribe-block div.two-info-bl p.title
+{
+    font-family: CoreRhino35Light;
+    font-size: 35px;
+    font-weight: 400;
+
+    margin-top: 10px;
+    margin-left: 24px;
+
+    color: #a662a2;
+}
+#subscribe-block div.two-info-bl input.inp-subscribe
+{
+    width: 278px;
+    height: 45px;
+    margin-left: 24px;
+
+    opacity: .5;
+    border: none;
+    border-bottom: 1px solid #666;
+    background-color: white;
+}
+#subscribe-block div.two-info-bl button.btn-subscribe
+{
+    font-family: CoreRhino25Thin;
+    font-size: 21px;
+    font-weight: 400;
+
+    width: 195px;
+    height: 45px;
+
+    color: white;
+    border-radius: 4px;
+    background-color: #a8609e;
+}
+#subscribe-block div.two-info-br img.img-snip
+{
+    position: relative;
+    bottom: 58px;
+    left: -25px;
+}
+#subscribe-block div.two-info-br p.title
+{
+    font-family: CoreRhino35Light;
+    font-size: 35px;
+    font-weight: 400;
+
+    position: absolute;
+    top: 56px;
+
+    color: #a662a2;
+}
+/* ---------------------------------subscribe-block end -------------------- */
+
+/* ---------------------------------moms about bimbasket block ------------------ */
+#moms-about h3
+{
+    margin-bottom: 30px;
+}
+#moms-about h3.subtitle
+{
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin-top: 30px;
+
+    color: #666;
+}
+
+#moms-about-slider button.arrow-prev
+{
+     position: absolute;
+    top: 50%;
+    left: -4%;
+	background: none;
+    border: none;
+}
+#moms-about-slider button.arrow-next
+{
+     position: absolute;
+    top: 50%;
+    right: -4%;
+	    background: none;
+    border: none;
+}
+
+
+
+
+/* ---------------------------------moms about bimbasket block end ------------- */
+/* ----------------------------------press about us block ------------------------ */
+#press-about-mp
+{
+    margin-bottom: 30px;
+}
+
+#press-about-mp h3
+{
+    font-family: CoreRhino55Medium;
+    font-size: 26px;
+    font-weight: 400;
+
+    color: #666;
+	margin-bottom: 30px;
+}
+#press-about-slider button.arrow-prev
+{
+     position: absolute;
+    top: 45%;
+    left: -4%;
+	background: none;
+    border: none;
+}
+#press-about-slider button.arrow-next
+{
+     position: absolute;
+    top: 45%;
+    right: -4%;
+	    background: none;
+    border: none;
+}
+
+
+
+/* ----------------------------------press about us block end -------------------- */
+/*/////////////////////////////////////////////
+//              CATALOG LIST STYLE           //
+////////////////////////////////////////////*/
+#catalog
+{
+    margin-top: 20px;
+}
+#clear-all-filter
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+
+    margin-bottom: 15px;
+
+    text-decoration: underline;
+
+    color: #666;
+}
+#catalog div.btn-present-idea
+{
+    width: 100%;
+    height: 29px;
+    margin-bottom: 16px;
+
+    color: #fff;
+    border-radius: 4px;
+    background-color: #a662a2;
+}
+
+#catalog .red
+{
+    background-color: #f00 !important;
+}
+#catalog-filter
+{
+    max-width: 279px;
+    padding: 18px 15px 19px 11px;
+
+    border: 1px solid #e0e0e0;
+}
+
+
+.bx-sidebar-block button
+{
+width: 263px;
+    height: 33px;
+    background-color: #a662a2;
+    border-radius: 4px;
+    color: white;
+    font-family: CoreRhino35Light;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px;
+    margin-bottom: 6px;
+}
+.bx-sidebar-block button:hover
+{
+	 background-color: #64c8a4;
+	 color:#fff;
+	 transition: all .3s ease-in;
+	 
+}
+#catalog-filter h3.title
+{
+    font-family: CoreRhino55Medium;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+    color: #666;
+}
+#catalog-filter h3.title small
+{
+    font-family: CoreRhino35Light;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+
+    position: relative;
+    top: 4px;
+
+    color: #a3a3a3;
+    border-bottom: 1px dotted #666;
+}
+#catalog-filter div.checkbox label,
+#catalog-filter div.checkbox.radio label
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    display: block;
+
+    margin-bottom: 23px;
+
+    color: #666;
+}
+#catalog-filter div.radio label
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    display: block;
+
+    margin-bottom: 18px;
+
+    color: #666;
+}
+#catalog-filter div.checkbox input[type=checkbox]:checked
+{
+    font-size: 30px;
+    line-height: 18px;
+
+    content: '\2022';
+    text-align: center;
+
+    color: #f3f3f3;
+}
+/* -------------------------product list ------------------------------ */
+
+ul#prduct-list li
+{
+    height: 384px;
+    margin-bottom: 60px;
+    padding: 15px;
+
+    cursor: pointer;
+}
+
+ul#prduct-list li span.price,
+ul#prduct-list li button.to-cart
+{
+    visibility: hidden;
+}
+
+ul#prduct-list li:hover
+{
+    border: 1px solid #e2f3ed;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .1);
+}
+
+ul#prduct-list li:hover > span.price,
+ul#prduct-list li:hover > button.to-cart
+{
+    visibility: visible;
+}
+
+ul#prduct-list li button.to-cart
+{
+    font-family: CoreRhino35Light;
+    font-size: 16px;
+    font-weight: 400;
+
+    width: 134px;
+
+    color: white;
+    border-radius: 4px;
+    background-color: #a662a2;
+}
+/* -------------------------product list ------------------------------ */
+/* ------------------------labels on prod list----------------------- */
+
+.label-new
+{
+    font-family: CoreRhino45Regular;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 10px;
+
+    width: 37px;
+    /* Text style for "New!" */
+    width: 26px;
+    height: 37px;
+    height: 9px;
+
+    color: white;
+    background-color: #a662a2;
+}
+/* ------------------------labels on prod list end------------------- */
+/* ----------------------------- filter ---------------------------------- */
+
+.bx-filter .bx-filter-section
+{
+		background:#fff !important;
+	    border: 1px solid #d2d2d2;
+}
+
+.bx-filter .bx-filter-parameters-box-title span
+{
+	height: 17px;
+color: #666;
+font-family: CoreRhino55Medium;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+.bx-filter .bx-filter-input-checkbox .bx-filter-param-text
+{
+	color: #666;
+font-family: CoreRhino35Light;
+font-size: 14px;
+font-weight: 400;
+}
+
+
+/* ----------------------------- filter end---------------------------------- */
+
+
+
+
+
+
+/*/////////////////////////////////////////////
+//              CATALOG DETAIL STYLE         //
+////////////////////////////////////////////*/
+#breadcrubs
+{
+    margin-top: 10px;
+
+    background: none;
+}
+
+#breadcrubs ol.breadcrumb
+{
+    background: none;
+}
+
+
+#product-detail
+{
+    margin-top: 0;
+}
+
+#buttons-prod-detail
+{
+    margin-top: 38px;
+}
+
+#buttons-prod-detail button.btn-compare
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: #8d8d8d;
+    background: none;
+}
+
+#buttons-prod-detail button.btn-to-favorits
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: #8d8d8d;
+    background: none;
+}
+
+#buttons-prod-detail span
+{
+    display: inline-block;
+
+    width: 25px;
+    height: 24px;
+    margin-right: 10px;
+
+    vertical-align: inherit;
+
+    background: url('../images/compire-favorits-sprite.png');
+}
+
+#buttons-prod-detail span.act
+{
+    display: inline-block;
+
+    width: 25px;
+    height: 24px;
+    margin-right: 10px;
+
+    vertical-align: inherit;
+
+    background: url('../images/compire-favorits-sprite-hover.png');
+}
+
+
+
+
+
+#buttons-prod-detail span.compare
+{
+    background-position: 0 0;
+}
+#buttons-prod-detail span.favorits
+{
+    background-position: 25px 0;
+}
+.prew-text
+{
+	/* Text style for "Для детей" */
+
+color: #666;
+font-family: CoreRhino35Light;
+font-size: 18px !important;
+font-weight: 400;
+line-height: 28px !important;
+}
+
+
+
+#product-detail div.price
+{
+    font-family: CoreRhino35Light;
+    font-size: 35px;
+    font-weight: 400;
+
+    color: #a662a2;
+}
+
+
+
+#product-detail div.surprise-div
+{
+    height: 171px;
+}
+
+#product-detail p.surprise
+{
+    font-family: CoreRhino35Light;
+    font-size: 18px;
+    font-weight: 400;
+
+    position: absolute;
+    bottom: 0;
+
+    color: #64c8a4;
+}
+ 
+#product-detail p.prod-code,
+#product-detail p.brand
+{
+    font-family: CoreRhino35Light;
+    font-size: 14px;
+    font-weight: 400;
+
+    margin: 0;
+
+    color: #9f9f9f;
+}
+
+#product-detail p.prod-code
+{
+    margin-top: 16px;
+}
+#product-detail button.to-cart
+{
+    font-family: CoreRhino45Regular;
+    font-size: 21px;
+    font-weight: 400;
+
+    width: 229px;
+    height: 45px;
+
+    color: white;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    background-color: #a8609e;
+}
+
+#product-detail h1
+{
+    font-family: CoreRhino45Regular;
+    font-size: 35px;
+    font-weight: 400;
+
+    color: #a662a2;
+}
+
+#product-detail div.text-detail
+{
+    font-family: CoreRhino35Light;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+
+    color: #666;
+}
+
+
+.bx_item_detail h1
+{
+	    margin: 0;
+    padding: 0;
+    font-size: 28px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	
+}
+.bx_item_detail h1.name
+{
+	margin: 0;
+    padding: 0;
+    font-size: 28px;
+	margin-bottom: 30px;
+
+	
+}
+
+
+
+
+.bx_item_detail p.subtitle
+{
+	color: #666;
+font-family: CoreRhino35Light;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 30px;
+}
+
+.bx_item_description
+{
+	color: #666;
+font-family: CoreRhino35Light;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.compare-button
+{
+	background: none;
+    border: none;
+    font-size: 17px;
+
+
+
+}
+
+#dttb
+{
+	height:431px;
+	position:relative;
+	display: inline-block;
+}
+
+
+.clb
+{
+	float:left;
+	display:inline-block;
+	width:50%;
+	position:absolute;
+bottom:0;
+color: #64c8a4;
+font-family: CoreRhino35Light;
+font-size: 18px;
+font-weight: 400;
+}
+.crb
+{
+	float:right;
+	display:inline-block; 
+	width:50%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+	
+}
+
+.tar
+{
+	text-align: right;
+}
+
+.btn-to-favorite
+{
+	background:none;
+}
+
+.message-success
+{
+	display:none;
+}
+
+
+.prod-in-box ul li
+{
+	    margin-bottom: 30px;
+    padding: 0 30px;
+}
+
+
+
+
+/* ---------------------------------korobka s harakterom-------------------------------------- */
+
+/* ---------------------------------korobka s harakterom------------------------------------- */
+
+
+/* Large desktop */
+@media (min-width: 1200px) {  }
+
+
+
+
+@media (min-width:992px) and (max-width: 1199px){
+	
+#head-block .top-menu {
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 6px;
+    color: white;
+}
+
+
+#tagline ul li p {
+    font-family: CoreRhino35Light;
+    font-size: 12px;
+    font-weight: 400;
+    min-width: 60px;
+    max-width: 100px;
+    padding: 4px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+
+
+
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+#tagline ul li p {
+    font-family: CoreRhino35Light;
+    font-size: 10px;
+    font-weight: 400;
+    min-width: 60px;
+    max-width: 100px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+
+
+
+#info h1{
+	
+	  width: 100%;
+    margin: 0 auto;
+    font-family: CoreRhino35Light;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #666;
+
+	
+}
+  
+#toTop {
+    width: 67px;
+    background: #64c8a4;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 1%;
+    right: 0%;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 38px;
+    border: 2px solid white;
+    transition: all .3s ease-in-out;
+    border-radius: 50%;
+}
+
+#subscribe-block div.two-info-bl, #subscribe-block div.two-info-br
+{
+	margin:0 auto;
+	margin-bottom:60px;
+	
+}
+
+
+
+ }
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+
+#info h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-family: CoreRhino35Light;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #666;
+}
+
+
+#toTop {
+    width: 67px;
+    background: #64c8a4;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 1%;
+    right: 0%;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 38px;
+    border: 2px solid white;
+    transition: all .3s ease-in-out;
+    border-radius: 50%;
+}
+
+ }
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+
+#info,#slider-widgets ,#recomend2view, #moms-about, #press-about-mp
+{
+	display:none;
+}
+
+#content {
+    min-height: 0px;
+    background: #fff;
+}
+
+#tagline ul li p {
+    font-family: CoreRhino35Light;
+    font-size: 10px;
+    font-weight: 400;
+    min-width: 60px;
+    max-width: 100px;
+    padding: 2px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+
+
+#info h1 {
+    width: 100%;
+    margin: 0 auto;
+    font-family: CoreRhino35Light;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #666;
+}
+
+#toTop {
+    width: 67px;
+    background: #64c8a4;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 1%;
+    right: 0%;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+    font-size: 38px;
+    border: 2px solid white;
+    transition: all .3s ease-in-out;
+    border-radius: 50%;
+}
+#slider-2-col div.xoverlay
+{
+	margin-bottom:5px;
+}
+
+#widget-3-col  div.xoverlay
+{
+	margin-bottom:5px;
+}
+
+
+
+
+
+ }
+
+
+
+
+
